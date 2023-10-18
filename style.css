@@ -1,0 +1,55 @@
+/* Style the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* Style the scoreboard */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Style the player score */
+.player-score {
+    text-align: center;
+}
+
+/* Style the computer score */
+.computer-score {
+    text-align: center;
+}
+
+/* Style the choices */
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* Style the buttons */
+button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the result */
+.result {
+    text-align: center;
+    font-size: 2rem;
+}
